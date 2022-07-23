@@ -1,5 +1,5 @@
 {
-  "name": "truffle-kriptonio",
+  "name": "@kriptonio/truffle-kriptonio",
   "version": "0.1.0",
   "description": "Truffle plugin for integration with kriptonio",
   "main": "dist/upload.js",

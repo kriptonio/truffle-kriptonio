@@ -7,16 +7,16 @@ This plugin allows you to upload compiled hardhat smart contract artifacts to Kr
 ## Installation
 
 ```bash
-npm install truffle-kriptonio
+npm install @kriptonio/truffle-kriptonio
 ```
 
 ## Setup
 
-Add `truffle-kriptonio` to plugins in your `truffle-config.js` file.
+Add `@kriptonio/truffle-kriptonio` to plugins in your `truffle-config.js` file.
 
 ```js
 plugins: [
-  'truffle-kriptonio',
+  '@kriptonio/truffle-kriptonio',
 ],
 ```
 
