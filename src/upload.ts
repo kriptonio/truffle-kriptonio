@@ -65,7 +65,7 @@ function parseKriptonioConfig(config: TruffleConfig): UploadConfig {
     blockchain: getRequiredConfigValue('blockchain', config.kriptonio),
     contract: getRequiredConfigValue('contract', config.kriptonio),
     name: getConfigValue('name', config.kriptonio) ?? getRequiredConfigValue('contract', config.kriptonio),
-    wallet: getConfigValue('wallet', config.kriptonio),
+    wallet: getRequiredConfigValue('wallet', config.kriptonio),
   };
 }
 

@@ -1,7 +1,6 @@
 export interface TruffleConfig {
   working_directory: string;
   contracts_build_directory: string;
-
   kriptonio: UploadConfig;
 }
 
@@ -12,5 +11,5 @@ export interface UploadConfig {
   blockchain: string;
   contract: string;
   name: string;
-  wallet: string | undefined;
+  wallet: string;
 }
